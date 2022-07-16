@@ -13,7 +13,7 @@ import com.cognizant.portfolio_management.DailySharePrice.model.ShareDetails;
 import com.cognizant.portfolio_management.DailySharePrice.service.ShareDetailsService;
 
 @RestController
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("http://mfpe-portfolio-pod5.s3-website-us-west-2.amazonaws.com")
 public class ShareDetailsController {
 	
 	@Autowired
