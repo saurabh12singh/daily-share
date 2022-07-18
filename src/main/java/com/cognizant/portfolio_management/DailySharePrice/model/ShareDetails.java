@@ -4,9 +4,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-/*
- * This JPA Model Class is responsible for handling databases
- */
+
 @Entity
 @Table
 public class ShareDetails {
